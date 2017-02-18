@@ -94,8 +94,8 @@ h1 {
 }
 
 #checklist {
-  position: relative;
-  width: 100%;
+  background-image: url(lab-assets/list-bg.png);
+  height: 400px;
 }
 
 #list {
