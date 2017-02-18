@@ -38,7 +38,7 @@ header {
 #social-icons {
   vertical-align: middle;
   font-size: 50%;
-  margin-left: 200px;
+  margin-left: 507px;
   display: inline;
 }
 
@@ -52,7 +52,7 @@ header {
 }
 
 main {
-  height: 1000px;
+  height: 2000px;
   width: 960px;
 }
 
@@ -69,6 +69,9 @@ h1 {
 }
 
 .main-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 150%;
   color: grey;
   font-size: 127%;
   text-indent: 50px;
@@ -94,20 +97,87 @@ h1 {
 }
 
 #checklist {
-  position: relative;
-  width: 100%;
+  display: block;
+  background-image: url(lab-assets/list-bg.png);\
+  background-size: 100%;
+  width: 900px;
+  height: 300px;
+}
+
+#checklist1 {
+  vertical-align: top;
+  font-size: 125%;
+  display: inline-block;
+  height: 300px;
+  width: 350px;
+}
+
+#checklist2 {
+  font-size: 125%;
+  display: inline-block;
+  height: 300px;
+  width: 450px;
 }
 
 #list {
   position: relative;
 }
 
+ul {
+  margin-left: 0px;
+  display: block;
+  height: 200px;
+}
+
 li {
-  display: inline;
+  font-size: 115%;
+  font-family: 'Indie Flower', cursive;
+  display: block;
   width: 250px;
 }
 
-/*.unorderedlist {
-display: inline;
-width:250px;
-}*/
+.strikethrough {
+  font-size: 115%;
+  text-decoration: line-through;
+  font-family: 'Indie Flower', cursive;
+}
+
+#vanpic {
+  vertical-align: top;
+  display: inline;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.authorbox {
+  display: inline-block;
+  width: 550px;
+  height: 150px;
+  padding-left: 0px;
+}
+#author {
+  font-size: 150%;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  width:200px;
+}
+
+#author1 {
+  font-size: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline;
+  width: 200px;
+}
+
+#share {
+  margin-left: 110px;
+}
+
+#copywrite {
+  display: block;
+  margin-top: 25px;
+  width: 25%;
+}
