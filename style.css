@@ -52,7 +52,7 @@ header {
 }
 
 main {
-  height: 1000px;
+  height: 2000px;
   width: 960px;
 }
 
@@ -94,20 +94,38 @@ h1 {
 }
 
 #checklist {
+  display: block;
   background-image: url(lab-assets/list-bg.png);
+  width: 1000px;
+  height: 300px;
+}
+
+#checklist1 {
+  font-size: 125%;
+  display: inline-block;
   height: 400px;
+  width: 450px;
+}
+
+#checklist2 {
+  font-size: 125%;
+  display: inline-block;
+  height: 400px;
+  width: 450px;
 }
 
 #list {
   position: relative;
 }
 
-li {
-  display: inline;
-  width: 250px;
+ul {
+  margin-left: 50px;
+  display: block;
+  height: 200px;
 }
 
-/*.unorderedlist {
-display: inline;
-width:250px;
-}*/
+li {
+
+  display: block;
+  width: 300px;
+}
